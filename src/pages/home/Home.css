@@ -1,0 +1,29 @@
+.home-background {
+    background: url('../../assets/home.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-content {
+    background-color: rgba(219, 219, 219, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+button {
+    background-color: rgba(184, 226, 142, 0.8);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(111, 166, 72);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}

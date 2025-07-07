@@ -1,0 +1,31 @@
+.user-register-background {
+  background: url('../../assets/user.jpg') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-register-form {
+  background-color: rgba(227, 227, 227, 0.85);
+  padding: 30px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.user-register-form input,
+.user-register-form textarea,
+.user-register-form button {
+  display: block;
+  width: 90%;
+  margin-bottom: 15px;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.form-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
